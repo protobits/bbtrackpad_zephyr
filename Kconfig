@@ -1,0 +1,3 @@
+config BBTRACKPAD_DRIVER
+	bool "Enable support for BlackBerry trackpad"
+

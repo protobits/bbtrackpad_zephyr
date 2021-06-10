@@ -1,0 +1,16 @@
+description: BlackBerry trackpad (SPI)
+
+compatible: "blackberry,trackpad-spi"
+
+include: spi-device.yaml
+
+properties:
+    power-pin:
+      required: true
+      type: int
+    reset-pin:
+      required: true
+      type: int
+    motion-pin:
+      required: true
+      type: int
